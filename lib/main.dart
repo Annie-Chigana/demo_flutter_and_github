@@ -10,7 +10,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Hello World',
       home: Scaffold(
-        appBar: AppBar(title: const Text('Hello World')),
+        appBar: AppBar(
+          title: const Text('Hello World'),
+          //change color
+          backgroundColor: Colors.deepPurple,
+          foregroundColor: Colors.white,
+          ),
         body: const Center(
           child: Text('Hello, World!', style: TextStyle(fontSize: 24)),
         ),
